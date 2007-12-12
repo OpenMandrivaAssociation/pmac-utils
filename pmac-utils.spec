@@ -1,6 +1,6 @@
 %define	name	pmac-utils
 %define	version	2.0
-%define	release	6mdk
+%define	release	%mkrel 6
 
 Summary:	PowerPC Linux system utilities
 Name:		pmac-utils
