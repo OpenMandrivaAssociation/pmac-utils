@@ -12,7 +12,6 @@ Source:		pmac-utils-%{version}.tar.bz2
 Patch0:		nvsetenv-man-patch.bz2
 Patch1:		pmac-utils-mousemode-patch.bz2
 Patch2:		pmac-utils-makefile-patch.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	sgml-tools linuxdoc-tools
 ExclusiveArch:	ppc
 
