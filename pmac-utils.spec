@@ -30,12 +30,12 @@ PPC-Linux-specific applications including macos, mousemode, nvsetenv, nvvideo.
 %make CFLAGS="$RPM_OPT_FLAGS"
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std man8dir=%{_mandir}/man8
-rm -f $RPM_BUILD_ROOT{/sbin/,%{_mandir}/man8/}macos*
+rm -f %{buildroot}{/sbin/,%{_mandir}/man8/}macos*
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %post
 if [ ! -c /dev/nvram ]; then
