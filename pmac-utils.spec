@@ -1,6 +1,6 @@
 %define	name	pmac-utils
 %define	version	2.0
-%define	release	%mkrel 7
+%define	release 8
 
 Summary:	PowerPC Linux system utilities
 Name:		pmac-utils
